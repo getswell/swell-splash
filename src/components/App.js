@@ -14,9 +14,9 @@ class App extends Component {
           </ul>
         </nav>
 
+        <div className='text-wrapper'>
         <img id="logo" src={logo} alt="swell logo" />
 
-        <div className='text-wrapper'>
           <div className='text-wrapper_inner'>
             <div id="content">
 

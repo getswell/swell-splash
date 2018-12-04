@@ -78,6 +78,7 @@ body {
   transform: translateX(-125px);
   left: 50%;
   z-index: 5;
+  margin-top: -122px;
 }
 
 #screenShot {
@@ -139,4 +140,20 @@ body {
 
 #download-btn:hover {
   background: #15b78f!important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .text-wrapper {
+      padding: 0;
+  }
+
+  .navbar ul {
+    justify-content: center;
+  }
+
+  .navbar ul li {
+    text-align: center;
+  }
+  
 }
