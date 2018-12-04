@@ -175,6 +175,13 @@ textarea {
     margin-top: -100px;
     padding-bottom: 20px;
   }
+
+  .logo-img {
+    width: 150px;
+    height: auto;
+    margin: 0 auto 25px;
+    display: block;
+  }
   
   #text-content {
     margin: 95px 0;
@@ -238,7 +245,35 @@ textarea {
     .navbar ul li {
       text-align: center;
     }
+
+    .text-wrapper_inner {
+      padding: 25px 50px!important;
+    }
+
+    #logo {
+      width: 130px!important;
+      height: auto;
+      position: absolute;
+      transform: translateX(-65px);
+      margin-top: -65px;
+    }
+
+    #text-content .title-text {
+        font-size: 2rem!important;
+    }
+      
+    #text-content .secondary-text {
+      font-size: 0.9rem!important;
+    }
     
+    #text-content .paragraph-text {
+      font-size: 0.8rem;!important;
+    }
+    
+    #download-btn {
+      display: none;
+    }
+
   }
 
 
