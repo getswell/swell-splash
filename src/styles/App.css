@@ -131,9 +131,7 @@ body {
   font-size: 1em;
   color: white;
   text-align: center;
-  transition: 1s;
   border-radius: 5px;
-  /* display: inline-block; */
   display: block;
   width: 150px;
   margin: auto;
@@ -141,6 +139,5 @@ body {
 } 
 
 #download-btn:hover {
-  background-color: #51a1b7;
-  border-bottom: 5px solid #346181;
+  background: #15b78f!important;
 }
