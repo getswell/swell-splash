@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import '../styles/App.css'
+import logo from '../assets/logo-lockup.png'
+import screenshot from '../assets/screen-shot-app-only.png'
 
 class App extends Component {
   render() {
@@ -12,7 +14,7 @@ class App extends Component {
           </ul>
         </nav>
 
-        <img id="logo" src="src/assets/logo-lockup.png" alt="swell logo" />
+        <img id="logo" src={logo} alt="swell logo" />
 
         <div className='text-wrapper'>
           <div className='text-wrapper_inner'>
@@ -26,7 +28,7 @@ class App extends Component {
               <a id="download-btn" href="/download/Swell-0.1.0.dmg.zip" download="/download/Swell-0.1.0.dmg.zip">Download</a>
 
 
-              <img id="screenShot" src="src/assets/screen-shot-app-only.png" alt="swell screen shot" />
+              <img id="screenShot" src={screenshot} />
             </div>
           </div>
         </div>
