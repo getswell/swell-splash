@@ -134,7 +134,7 @@ textarea {
   }
   
   .secondary-text {
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center;
     display: block;
     padding-bottom: 50px;
@@ -165,8 +165,6 @@ textarea {
     border: #cacaca solid 1px;
   }
   
-
-  
   #logo {        
     width: 220px!important;
     height: auto;
@@ -175,6 +173,7 @@ textarea {
     left: 50%;
     z-index: 5;
     margin-top: -100px;
+    padding-bottom: 20px;
   }
   
   #text-content {
@@ -207,7 +206,7 @@ textarea {
     background: -webkit-linear-gradient(-45deg, #15b78f 0%,#009bbf 100%);
     background: linear-gradient(135deg, #15b78f 0%,#009bbf 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15b78f', endColorstr='#009bbf',GradientType=1 );
-    font-size: 1em;
+    font-size: 1rem;
     color: white;
     text-align: center;
     border-radius: 5px;
