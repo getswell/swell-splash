@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+  #container {
+    max-width: 1280px; 
+    width: 100%;
+    padding:0;
+    border: transparent solid 1px;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'PT sans', sans-serif;
+    display: block;
+    clear: both;
+  }
+
+ .navbar {    
+    width: 100%;
+    height: 50px;
+    padding: 20px 25px;
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    text-align: right;
+    list-style: none;
+    padding: 0 15px;
+  }
+  
+  .navbar ul a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+   .title-text {
+    font-size: 2.8rem;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .secondary-text {
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    padding-bottom: 50px;
+  }
+  
+  .paragraph-text {
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+    margin-bottom: 50px; 
+  }
+  
+  .text-wrapper {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 130px;
+    padding: 0 100px 50px;
+  }
+  
+  .text-wrapper_inner {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+    padding: 100px;
+    background: white;
+    border: #cacaca solid 1px;
+  }
+  
+
+  
+  #logo {        
+    width: 220px!important;
+    height: auto;
+    position: absolute;
+    transform: translateX(-110px);
+    left: 50%;
+    z-index: 5;
+    margin-top: -100px;
+  }
+  
+  #text-content {
+    margin: 95px 0;
+    font-size: 1.2em;
+    display: block;
+  }
+  
+  #screenShot {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 50px auto;
+    display: block;
+  }
+  
+  #lockup {
+    width: 200px;
+    height: auto;
+    margin: 0 auto 50px;
+    display: inherit;
+  }
+  
+  #download-btn {
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    background: #15b78f;
+    background: -moz-linear-gradient(-45deg, #15b78f 0%, #009bbf 100%);
+    background: -webkit-linear-gradient(-45deg, #15b78f 0%,#009bbf 100%);
+    background: linear-gradient(135deg, #15b78f 0%,#009bbf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15b78f', endColorstr='#009bbf',GradientType=1 );
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    width: 150px;
+    margin: auto;
+    text-transform: uppercase;
+  } 
+  
+  #download-btn:hover {
+    background: #15b78f!important;
+  }
+  
+  .sub-text {
+      text-align: center;
+      display: inherit;
+      margin: 20px 0 0 0;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .text-wrapper {
+        padding: 0;
+    }
+  
+    .navbar ul {
+      justify-content: center;
+    }
+  
+    .navbar ul li {
+      text-align: center;
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
