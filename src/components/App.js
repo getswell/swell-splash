@@ -26,7 +26,7 @@ class App extends Component {
 
 
               <a id="download-btn" href="/download/Swell-0.1.0.dmg.zip" download="/download/Swell-0.1.0.dmg.zip">Download</a>
-
+              <sub className="sub-text">Mac Only. Windows and Unix Support Coming Soon</sub>
 
               <img id="screenShot" src={screenshot} />
             </div>
