@@ -256,9 +256,28 @@ textarea {
       height: auto;
       position: absolute;
       transform: translateX(-65px);
-      margin-top: -65px;
+      margin-top: -54px;
     }
 
+    .logo-img {
+      width: 75px;
+      height: auto;
+      margin: 0 auto 25px;
+      display: block;
+    }
+
+    #lockup {
+      width: 200px;
+      height: auto;
+      margin: 0 auto 50px;
+      display: inherit;
+    }
+
+    #logo-lockup {
+      width:130px;
+      height: auto; 
+    }
+  
     #text-content .title-text {
         font-size: 2rem!important;
     }
