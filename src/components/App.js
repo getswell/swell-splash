@@ -5,15 +5,31 @@ class App extends Component {
   render() {
     return (
       <div id="container">
-        <h1 id="title">Swell</h1>
+        <nav className='navbar'>
+          <ul>
+            <li><a target="blank" href="https://github.com/getswell/getswell">Github</a></li>
+            <li><a target="blank" href="https://twitter.com/intent/tweet?text=Swell%20for%20your%20streaming%20api%20testing%20needs&url=https://www.getswell.io&hashtags=SSE,WebSocket,HTTP,API,developers">Twitter</a></li>
+          </ul>
+        </nav>
+
         <img id="logo" src="src/assets/logo-lockup.png" alt="swell logo" />
-        <p id="content">Lorem ipsum dolor amet vice literally bicycle rights cornhole chicharrones asymmetrical
-          tumblr kinfolk, organic deep v. Locavore aesthetic everyday carry raw denim lomo neutra
-          banjo. Adaptogen health goth readymade, sartorial biodiesel fanny pack cornhole banh mi
-          ethical typewriter activated charcoal echo park. Godard roof party chambray, truffaut
-          marfa organic narwhal intelligentsia. Enamel pin meh wayfarers salvia, tote bag bicycle
-          rights ennui hot chicken chia.</p>
-        <a id="download-btn" href="../../somefile.txt" download="somefile.txt">Download!</a>
+
+        <div className='text-wrapper'>
+          <div className='text-wrapper_inner'>
+            <div id="content">
+
+              <span className="secondary-text">The one-stop shop for sending and monitoring Streaming API requests</span>
+
+              <span className="paragraph-text">Swell is a Streaming API development tool that enables developers to test API endpoints served over modern networking technologies including Server-Sent Events (SSE), WebSocket, and HTTP2.</span>
+
+
+              <a id="download-btn" href="../../somefile.txt" download="somefile.txt">Download</a>
+
+
+              <img id="screenShot" src="src/assets/screen-shot-app-only.png" alt="swell screen shot" />
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
