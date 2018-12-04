@@ -23,7 +23,7 @@ class App extends Component {
               <span className="paragraph-text">Swell is a Streaming API development tool that enables developers to test API endpoints served over modern networking technologies including Server-Sent Events (SSE), WebSocket, and HTTP2.</span>
 
 
-              <a id="download-btn" href="../../somefile.txt" download="somefile.txt">Download</a>
+              <a id="download-btn" href="/download/Swell-0.1.0.dmg.zip" download="/download/Swell-0.1.0.dmg.zip">Download</a>
 
 
               <img id="screenShot" src="src/assets/screen-shot-app-only.png" alt="swell screen shot" />
