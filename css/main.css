@@ -99,7 +99,7 @@ textarea {
   h2 {
     width: 100%;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 10px;
   }
 
  .navbar {    
@@ -159,6 +159,7 @@ textarea {
   .paragraph-text {
     font-size: 1.5rem;
     text-align: center;
+    max-width: 1000px;
     display: block;
     margin-bottom: 50px; 
   }
@@ -213,18 +214,18 @@ textarea {
 
   .downloadGradient {
     padding: 3px;
+    margin: 10px;
     border-radius: 3px;
     background: #15b78f;
     background: -moz-linear-gradient(-45deg, #15b78f 0%, #009bbf 100%);
     background: -webkit-linear-gradient(-45deg, #15b78f 0%,#009bbf 100%);
     background: linear-gradient(135deg, #15b78f 0%,#009bbf 100%);
-    background-size: 400% 400%;
     animation: Gradient 1s linear infinite;
   }
 
   .downloadDiv {
     background: white;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -236,6 +237,7 @@ textarea {
     justify-content: space-between;
     width: 100%;
     max-width: 600px;
+    padding: 10px;
     margin: 0 auto;
   }
   
@@ -263,9 +265,9 @@ textarea {
 
   #text-content {
     background: white;
-    height: 100vh;
+    height: auto;
     width: 100vw;
-    padding: 0 80px;
+    padding: 100px 80px;
     font-size: 1.2em;
     display: flex;
     flex-flow: column nowrap;
@@ -426,7 +428,7 @@ textarea {
     height: 30px;
   }
   
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 768px) {
     .text-wrapper {
       padding: 0;
     }
@@ -447,7 +449,7 @@ textarea {
       height: auto;
       transform: translateY(65px);
       margin-top: 10%;
-      margin-bottom: 10%;
+      margin-bottom: 35%;
     }
 
     .logo-img {
@@ -470,9 +472,8 @@ textarea {
     }
   
     #text-content {
-      margin-top: 50px;
       height: auto;
-      padding-bottom: 0 !important;
+      padding: 20px 10px 0px;
     }
     
     #text-content .title-text {
@@ -482,12 +483,16 @@ textarea {
     
     #text-content .secondary-text {
       font-size: 0.9rem!important;
-      padding-top: 20px !important;
+      padding-top: 0px !important;
     }
     
     #text-content .paragraph-text {
       font-size: 0.8rem !important;
       margin-bottom: 20px !important;
+    }
+
+    .meet > hr {
+      width: 0px;
     }
 
     .downloadDiv > h2 {
@@ -535,6 +540,15 @@ textarea {
       justify-self: flex-end;
     }
 
+  }
+
+  @media only screen and (max-width: 768px) and (min-width: 720px) {
+    #text-content .secondary-text {
+      font-size: 1.7rem !important;
+    }
+    #text-content .paragraph-text {
+      font-size: 1.2rem !important;
+    }
   }
 
   @keyframes fadeIn {
