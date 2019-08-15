@@ -23,10 +23,12 @@ html {
 body {
   margin: 0;
 
-  background: #15b78f; /* Old browsers */
+  /* background: #15b78f; Old browsers */
   background: -moz-linear-gradient(-45deg, #15b78f 0%, #3DADC2 80%); /* FF3.6-15 */
   background: -webkit-linear-gradient(-45deg, #15b78f 0%,#3DADC2 80%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #15b78f 0%,#3DADC2 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(135deg, #15b78f 0%,#3DADC2 80%); /*W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  
+  animation: Gradient 4s linear 1;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15b78f', endColorstr='#3DADC2',GradientType=1 );
 }
 
