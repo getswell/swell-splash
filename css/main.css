@@ -387,8 +387,8 @@ textarea {
   .devGrid {
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(2, 50%);
-    height: 450px;
+    grid-template-rows: auto;
+    height: 700px;
     width: 100%;
     justify-items: center;
     align-items: center;
